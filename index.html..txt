@@ -1,0 +1,167 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoWriter Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #111;
+            padding: 15px 30px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .navbar h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1400x600');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 150px 20px;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0 0 10px 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 0 0 30px 0;
+        }
+        .hero button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .content {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .footer {
+            background-color: #111;
+            color: #fff;
+            padding: 20px 30px;
+            text-align: center;
+        }
+        .posts {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .posts h3 {
+            color: #333;
+        }
+        .posts p {
+            color: #555;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>CryptoWriter Pro</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div><div id="home" class="hero">
+    <h2>Welcome to CryptoWriter Pro</h2>
+    <p>Your daily dose of crypto insights and premium writing.</p>
+    <button>Read Latest Articles</button>
+</div>
+
+<div id="about" class="content">
+    <h2>About Me</h2>
+    <p>I am a professional crypto writer, helping projects shine with engaging and high-quality content. From blogs to technical articles, I cover everything in the crypto world.</p>
+</div>
+
+<div id="articles" class="content">
+    <h2>Latest Posts</h2>
+    <div class="posts">
+        <h3>Understanding Bitcoin in 2025</h3>
+        <p>Exploring the latest trends and insights on Bitcoin for the year 2025.</p>
+    </div>
+    <div class="posts">
+        <h3>Top 5 Crypto Investment Tips</h3>
+        <p>Learn how to make smart crypto investments in a volatile market.</p>
+    </div>
+    <div class="posts">
+        <h3>The Future of Blockchain Technology</h3>
+        <p>How blockchain is transforming industries beyond finance.</p>
+    </div>
+</div>
+
+<div id="services" class="content">
+    <h2>My Services</h2>
+    <p>Whitepapers, blog posts, website content, project reviews, and more. I deliver content that stands out in the competitive crypto market.</p>
+</div>
+
+<div id="contact" class="content contact-form">
+    <h2>Contact Me</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+<div class="footer">
+    &copy; 2025 CryptoWriter Pro - All Rights Reserved
+</div>
+
+</body>
+</html>
